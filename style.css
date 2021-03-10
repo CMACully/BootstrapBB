@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* Bootstrap B&B
+    Author: Chauntel Atchley Cully
+    Date: 03/04/2021 - 03/05/2021 */
+:root
+{
+  --teal: #64B6C1;
+  --grey-dark: #343a40;
+  --light-grey: #555555;
+  --light: #f8f9fa;
+}
+
+.container-fluid
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2
+{
+  color: var(--teal);
+  font-weight: 700;
+}
+
+h5
+{
+  font-weight: 700;
+}
+
+header
+{
+  text-align: center;
+  font-size: 1.1rem;
+  padding-top: 25px;
+}
+
+.center
+{
+  text-align: center;
+  color: var(--grey-dark);
+}
+
+/* Navigation Bar */
+.nav-pills
+{
+  background-color: var(--light-grey);
+  padding: 30px;
+}
+
+.nav-link
+{
+  color: var(--light);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover
+{
+  color: var(--light);
+  background-color: var(--teal);
+  padding: 30px;
+  font-size: 1.3rem;
+}
+
+/* End Navigation Bar */
+
+/* Card Container */
+
+.row
+{
+  padding: 2rem;
+}
+
+.card
+{
+  margin: auto auto 3rem auto;
+  height: 350px;
+}
+
+/* End Card Container */
+
+/* Amenities */
+
+.amencontainer
+{
+  background-image: url("images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* End Amenities */
+
+
+/* Footer */
+
+footer
+{
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--teal);
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+a
+{
+  text-decoration: none;
+  color: var(--light);
+}
+
+/* End Footer */
+
+/* Form */
+
+.form-row
+{
+  display: flex;
+  flex-wrap: wrap;
+  border: transparent;
+}
+
+.btn
+{
+  color: var(--light);
+  background-color: var(--light-grey);
+  border: transparent;
+}
+
+.btn:hover
+{
+  background-color: var(--teal);
+}
+
+/* End Form */
+
+/* Google Map */
+
+iframe
+{
+  width: 600px;
+  height: 450px;
+  margin: auto auto 15rem auto;
+}
+
+/* End Google Map */
+
+@media (max-width:758px)
+{
+  iframe
+  {
+    width: 500px;
+    height: 400px;
+    margin: auto auto 8rem auto;
+  }
+}
+
+@media (max-width:525px)
+{
+  iframe
+  {
+    width: 400px;
+    height: 300px;
+    margin: auto auto 8rem auto;
+  }
+}
